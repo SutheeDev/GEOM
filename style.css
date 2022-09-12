@@ -22,24 +22,28 @@ body main {
 body main .square {
   height: 50vw;
   width: 50vw;
+  position: relative;
   background: #006aff;
   mix-blend-mode: multiply;
+  left: 10%;
 }
 body main .circle {
   height: 50vw;
   width: 50vw;
+  position: relative;
   border-radius: 50%;
   background: #ff9d00;
-  position: relative;
   z-index: 2;
   mix-blend-mode: multiply;
 }
 body main .triangle {
   height: 50vw;
   width: 50vw;
+  position: relative;
   height: 43.30127vw;
   background: #ff68ff;
   -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
   mix-blend-mode: multiply;
+  right: 10%;
 }/*# sourceMappingURL=style.css.map */

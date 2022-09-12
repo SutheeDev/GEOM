@@ -7,12 +7,12 @@ $size: 50vw;
 @mixin geomSize {
     height: $size;
     width: $size;
+    position: relative;
 }
 body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    // background: #212121;
     background: white;
     position: relative;
     main {
@@ -24,16 +24,14 @@ body {
         align-items: center;
         .square {
             @include geomSize;
-            // background: #634b6688;
             background: #006aff;
             mix-blend-mode: multiply;
+            left: 10%;
         }
         .circle {
             @include geomSize;
             border-radius: 50%;
-            // background: #9590a89e;
             background: #ff9d00;
-            position: relative;
             z-index: 2;
             mix-blend-mode: multiply;
         }
@@ -43,6 +41,7 @@ body {
             background: #ff68ff;
             clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
             mix-blend-mode: multiply;
+            right: 10%;
         }
     }
 }
