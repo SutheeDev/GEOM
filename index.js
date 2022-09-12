@@ -1,28 +1,28 @@
-// const sqTl = gsap.timeline({repeat: -1});
-// sqTl.to('.square', {
-//     x: '200%',
-//     rotate: 90,
-//     duration: 2.5,
-//     ease: 'power1.inOut'
-// })
-// sqTl.to('.square', {
-//     x: '0%',
-//     rotate: 180,
-//     duration: 2.5,
-//     ease: 'power1.inOut'
-// })
-// sqTl.to('.square', {
-//     x: '200%',
-//     rotate: 270,
-//     duration: 2.5,
-//     ease: 'power1.inOut'
-// })
-// sqTl.to('.square', {
-//     x: '0%',
-//     rotate: 360,
-//     duration: 2.5,
-//     ease: 'power1.inOut'
-// })
+const sqTl = gsap.timeline({repeat: -1});
+sqTl.to('.square', {
+    x: '140%',
+    rotate: 90,
+    duration: 2.5,
+    ease: 'power1.inOut'
+})
+sqTl.to('.square', {
+    x: '0%',
+    rotate: 180,
+    duration: 2.5,
+    ease: 'power1.inOut'
+})
+sqTl.to('.square', {
+    x: '140%',
+    rotate: 270,
+    duration: 2.5,
+    ease: 'power1.inOut'
+})
+sqTl.to('.square', {
+    x: '0%',
+    rotate: 360,
+    duration: 2.5,
+    ease: 'power1.inOut'
+})
 
 // const triTl = gsap.timeline({repeat: -1});
 // triTl.to('.triangle', {
