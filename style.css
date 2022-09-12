@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: #212121;
+  background: white;
   position: relative;
 }
 body main {
@@ -22,21 +22,24 @@ body main {
 body main .square {
   height: 50vw;
   width: 50vw;
-  background: #634B66;
+  background: #006aff;
+  mix-blend-mode: multiply;
 }
 body main .circle {
   height: 50vw;
   width: 50vw;
   border-radius: 50%;
-  background: #9590A8;
+  background: #ff9d00;
   position: relative;
   z-index: 2;
+  mix-blend-mode: multiply;
 }
 body main .triangle {
   height: 50vw;
   width: 50vw;
   height: 43.30127vw;
-  background: #BBCBCB;
+  background: #ff68ff;
   -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+  mix-blend-mode: multiply;
 }/*# sourceMappingURL=style.css.map */

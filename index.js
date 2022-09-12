@@ -53,16 +53,16 @@ triTl.to('.triangle', {
 const circleTl =gsap.timeline({repeat: -1});
 circleTl.to('.circle', {
     x: '100%',
-    duration: 1.25,
-    ease: 'power2.Out'
+    duration: 1.45,
+    ease: 'power1.Out'
 })
 circleTl.to('.circle', {
     x: '-100%',
-    duration: 2.5,
-    ease: 'power2.inOut'
+    duration: 2.1,
+    ease: 'power1.inOut'
 })
 circleTl.to('.circle', {
     x: '0%',
-    duration: 1.25,
-    ease: 'power2.in'
+    duration: 1.45,
+    ease: 'power1.in'
 })
