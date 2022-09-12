@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #212121;
+}
+body main {
+  width: 150vw;
+  height: 100vh;
+  padding: 10vh 0;
+  display: flex;
+}
+body main .square {
+  height: 50vw;
+  min-width: 50vw;
+  border: solid 3px #fff2f1;
+}
+body main .circle {
+  height: 50vw;
+  min-width: 50vw;
+  border-radius: 50%;
+  border: solid 3px #fff2f1;
+}
+body main .triangle {
+  height: 50vw;
+  min-width: 50vw;
+  background-color: red;
+  -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+          clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}/*# sourceMappingURL=style.css.map */
