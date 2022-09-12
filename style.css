@@ -14,28 +14,26 @@ body {
 body main {
   width: 150vw;
   height: 100vh;
-  padding: 10vh 0;
   position: absolute;
   left: -25vw;
   display: flex;
+  align-items: center;
 }
 body main .square {
   height: 50vw;
-  min-width: 50vw;
-  margin: auto 0;
+  width: 50vw;
   background: #634B66;
 }
 body main .circle {
   height: 50vw;
-  min-width: 50vw;
-  margin: auto 0;
+  width: 50vw;
   border-radius: 50%;
   background: #9590A8;
 }
 body main .triangle {
   height: 50vw;
-  min-width: 50vw;
-  margin: auto 0;
+  width: 50vw;
+  height: 43.30127vw;
   background: #BBCBCB;
   -webkit-clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
           clip-path: polygon(0% 100%, 50% 0%, 100% 100%);

@@ -6,8 +6,7 @@
 $size: 50vw;
 @mixin geomSize {
     height: $size;
-    min-width: $size;
-    margin: auto 0;
+    width: $size;
 }
 body {
     width: 100vw;
@@ -18,10 +17,10 @@ body {
     main {
         width: 150vw;
         height: 100vh;
-        padding: 10vh 0;
         position: absolute;
         left: -25vw;
         display: flex;
+        align-items: center;
         .square {
             @include geomSize;
             background: #634B66;
@@ -33,6 +32,7 @@ body {
         }
         .triangle {
             @include geomSize;
+            height: 43.30127vw;
             background: #BBCBCB;
             clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
         }
