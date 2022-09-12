@@ -29,6 +29,8 @@ body main .circle {
   width: 50vw;
   border-radius: 50%;
   background: #9590A8;
+  position: relative;
+  z-index: 2;
 }
 body main .triangle {
   height: 50vw;

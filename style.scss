@@ -29,6 +29,8 @@ body {
             @include geomSize;
             border-radius: 50%;
             background: #9590A8;
+            position: relative;
+            z-index: 2
         }
         .triangle {
             @include geomSize;
