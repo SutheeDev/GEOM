@@ -7,29 +7,33 @@ $size: 50vw;
 @mixin geomSize {
     height: $size;
     min-width: $size;
+    margin: auto 0;
 }
 body {
     width: 100vw;
     height: 100vh;
-    // overflow: hidden;
+    overflow: hidden;
     background: #212121;
+    position: relative;
     main {
         width: 150vw;
         height: 100vh;
         padding: 10vh 0;
+        position: absolute;
+        left: -25vw;
         display: flex;
         .square {
             @include geomSize;
-            border: solid 3px #fff2f1;
+            background: #634B66;
         }
         .circle {
             @include geomSize;
             border-radius: 50%;
-            border: solid 3px #fff2f1;
+            background: #9590A8;
         }
         .triangle {
             @include geomSize;
-            background-color: red;
+            background: #BBCBCB;
             clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
         }
     }
