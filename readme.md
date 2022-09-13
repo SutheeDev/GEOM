@@ -9,9 +9,9 @@ This small project belongs to the ActivelyInactive series, in which I've tried t
 ## Technologies
 
 - HTML5
-- CSS3
-- JavaScript
-- GSAP
+- CSS3 / SASS / SCSS
+- JavaScript ES6
+- GSAP3
 
 ## Acknowledgements
 
